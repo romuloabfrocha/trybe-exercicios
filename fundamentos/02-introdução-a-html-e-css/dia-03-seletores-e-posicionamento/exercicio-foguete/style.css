@@ -1,0 +1,49 @@
+div:hover {
+    border: 2px solid 
+}
+
+div:nth-of-type(1) {
+    background-color: rgb(144, 76, 119)
+}
+
+div:nth-of-type(2) {
+    background-color: rgb(209, 227, 221);
+}
+
+div:nth-of-type(3) {
+    background-color: rgb(48, 147, 60);
+}
+
+div:nth-of-type(4) {
+    background-color: rgb(87, 122, 165)
+}
+
+div:nth-of-type(5) {
+    background-color: rgb(245, 105, 96)
+}
+
+div:nth-of-type(5) > h3 {
+    color: rgb(135, 0, 88)
+}
+
+div:nth-of-type(4) > h3 {
+    font-size: 50px;
+}
+div:nth-of-type(2) > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+div:nth-of-type(2) > h3 {
+    font-style: initial;
+}
+
+div:nth-of-type(1) > h3 {
+    color: aquamarine;
+}
+
+div:nth-of-type(3) {
+    height: 200px;
+}
+  
+div:nth-child(odd) h3 {
+    font-style: italic
+}
